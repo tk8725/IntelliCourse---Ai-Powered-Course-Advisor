@@ -37,9 +37,9 @@ git clone <your-repo-url>
 cd intellicourse
 
 2. Create and activate a virtual environment:
-
+# for Windows
 python -m venv .venv
-# Windows
+
 .venv\Scripts\activate
 
 3. Install dependencies:
