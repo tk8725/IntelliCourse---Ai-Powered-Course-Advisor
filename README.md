@@ -48,19 +48,23 @@ pip install -r requirements.txt
 
 4. Add your PDF course catalogs to a folder, e.g., data/.
 
-5. Index your PDFs into Chroma DB:
+5. Make .env file
+store api keys in it 
+#GEMINI_API_KEY=your api key here
+
+6. Index your PDFs into Chroma DB:
 
 python -m scripts.index_docs
 
-6. Start the FastAPI server:
+7. Start the FastAPI server:
 
 uvicorn app.main:app --reload
 
-7. Open the frontend:
+8. Open the frontend:
 
 http://127.0.0.1:8000/static/index.html
 
-8. Test queries via /chat endpoint:
+9. Test queries via /chat endpoint:
 
 POST /chat
 {
