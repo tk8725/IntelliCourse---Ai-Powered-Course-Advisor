@@ -1,5 +1,5 @@
 
-#IntelliCourse---Ai-Powered-Course-Advisor
+# IntelliCourse---Ai-Powered-Course-Advisor
 What it is
 IntelliCourse is an AI-powered project that implements a Retrieval-Augmented Generation (RAG) course advisor using FastAPI, LangChain, and LangGraph. It answers course-catalog questions by searching indexed PDFs, and falls back to web search for general questions.
 
